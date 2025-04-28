@@ -1,4 +1,4 @@
-class Task113.java
+class Task113 {
   public static void main (String[]args){
        int check_number = 10;
 	     String message;
@@ -7,9 +7,6 @@ class Task113.java
 	     {
 	     message = (i % 2 == 0) ? i + " is even number" : i+ " is odd number";
 	     System.out.println(message); 
-  
-  
-  
-  }
+	     }
 }
 }

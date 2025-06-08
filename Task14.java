@@ -1,21 +1,21 @@
 //TASK 14 ACTIVITY (Create a subclass of the abstract class and implement the abstract method.)
 
-abstract class AbstractClass {
+abstract class abstractClass {
     abstract void abstractMethod();
 
     void concreteMethod() {
-        System.out.println("This is a concrete method.");
+        System.out.println("This is a concrete method.\n");
     }
 }
 
-class B extends AbstractClass {
+class B extends abstractClass {
     @Override
     void abstractMethod() {
-        System.out.println("B's implementation of abstractMethod.");
+        System.out.println("\nB's implementation of abstractMethod.");
     }
 }
 
-class C extends AbstractClass {
+class C extends abstractClass {
     @Override
     void abstractMethod() {
         System.out.println("C's implementation of abstractMethod.");

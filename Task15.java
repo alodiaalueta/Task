@@ -1,4 +1,4 @@
-//TASK 15 ACTIVITY (
+//TASK 15 ACTIVITY (Define an interface called Shape with the following methods: calculateArea(): double (Math.PI * radius * radius;  ) & calculatePerimeter(): double (2 * Math.PI * radius;  )  )
 
 interface Shape {
 	double calculateArea();

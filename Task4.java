@@ -11,7 +11,7 @@ public class Task4 {
         StringBuilder reversed = new StringBuilder(wordStringChecker);
         reversed.reverse();
         if (wordStringChecker.equalsIgnoreCase(reversed.toString())) {
-            System.out.println("Palindrome");
+            System.out.println("The input string is a palindrome.");
         } else {
             System.out.println("Not a palindrome.");
         }

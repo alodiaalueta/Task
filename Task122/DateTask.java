@@ -1,3 +1,5 @@
+//TASK 1-2-2 ACTIVITY (Demonstrate the Java protection of encapsulation)
+
 package Task122;
 
 public class DateTask {
